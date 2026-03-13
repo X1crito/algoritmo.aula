@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    real semana[7], soma=0
+
+    escreva("está um dia quente la fora. . .  \nsol latejando, calor escaldante, em dias como este pessoas com ar condicionado como você deveriam ir pro inferno")
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\nqual a temperatura de hoje?: ")
+      leia(semana[i])
+      soma=soma+semana[i]
+    }
+    escreva("\n", soma)
+
+    para(inteiro i = 0; i < 7; i++){
+      se(semana[i] % 2 == 0){
+        escreva("\nESTÁ PORRA ESTÁ QUENTE")
+      }
+      senao se(semana[i] % 3 == 0){
+        escreva("\nah, ta normal")
+      }
+      senao{
+        escreva("\nESTÁ PORRA ESTÁ FRIA")
+      }
+      }
+
+  }
+}
