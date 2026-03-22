@@ -171,7 +171,7 @@ programa {
         escreva("\n\nApós a poeira la fora passar, vocês saem, você agora está decidido a colaborar com Zorvok para não morrer")
         escreva("\nVocê ainda trabalhava pra ele, capinando o seu lote de verduras, mas, em compensasão, ele te deixa morar em sua casa")
         escreva("\nAgora você vive com Zorvok, alguém que te faz uma boa companhia e te protege pra não morrer")
-
+        pare
       }
       caso'n':
       {
@@ -182,6 +182,7 @@ programa {
         escreva("\n\n???: Não acredito que Zorvok guardava um humano consigo. . . que decepção")
         escreva("\nVocê tenta se soltar, mas as mãos do homen, além de escamosas, são mais fortes que seu frágil corpo")
         escreva("\nNo final, ele te leva para uma prisão e te deixa lá preso, sem comida, sem água, tudo isso\npara você morrer de forma natural e cruel")
+        pare
       }
       caso'p':
       {
