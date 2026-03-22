@@ -134,6 +134,94 @@ programa {
     enquanto(numero==1){escreva("\nVocê está trabalhando de forma árdua, mas o trabalho está longe de termiar. . . ")
     escreva("\nVai continuar? Digite 1. Se quer desistir, Digite 2:")
     leia(numero)} escreva("\nvocê para de trabalhar, de suar e quase morrer de tanto capinar")
-    
+    escreva("\nApós um longo periodo de tempo capinando aquela orta, Zorvok te chama")
+    escreva("\n\nZorvok: Ai mlk, vem cá. A gente vai sair pra comer")
+    escreva("\nVocê se anima, finalmente comer alguma coisa depois de tanto tempo. Mas, antes de sair, Zorvok te cobre com um manto")
+    escreva("\n\nZorvok: Isso é pra garantir uma coisinha, Não tire isso por nada")
+    escreva("\nVocê tenta contestar, mas está com tanta fome que ignora")
+    escreva("\n\nAgora tanto você quanto Zorvok se encontram na rua, caminhando até um restaurante próximo dali pra comer alguma coisa")
+    escreva("\nEnquanto vocês andavam, você percebe uma figura observando vocês, uma figura com chápeu de cherife com olhos vermelhos")
+    escreva("\nVocê vai falar para Zorvok?: ")
+    leia(resposta)
+
+    escolha(resposta){
+      caso's':
+      {
+        escreva("\nVocê fala para Zorvok sobre o homem encapuzado, ele olha para tal figura e fica com uma cara espantada")
+        escreva("\n\nZorvok: precisamos ir. . . Agora")
+        escreva("\nEle te pega pelo braço e começa a correr, você sente q aquilo seria um mal sinal")
+        escreva("\n\nVocês correm, correm bastante pela cidade")
+        escreva("\nAo fundo, você ouvia sons de tiro ecoando. O medo se estaurava em você")
+        escreva("\n\nZorvok: Não se preocupa garoto, você vai sair vivo daqui. . .")
+        escreva("\nZorvok tentava te confortar, mas os tiros não ajudavam")
+        escreva("\n\nApós uma longa correria, vocês conseguem se esconder em uma casa abandonada")
+        escreva("\nVocê sente mais medo do que antes. Você olha pra Zorvok enquanto buscava respostas do que estava acontecendo")
+        escreva("\nO ser dracônco tentava te acalmar, falando que as coisas dariam certo e que você só precisava seguir as ordens dele")
+        escreva("\nIsso não te satisfaz, você quer respostas e Zorvok está lhe dando mais dúvidas? Isso é muito confuso")
+        escreva("\nVendo o pavor e a confusão em seu olhar, Zorvok abre o jogo")
+        escreva("\nEle te conta sobre aquele lugar, uma cidadezinha de interior que odiava humanos por suas péssimas decisões")
+        escreva("\n\nZorvok te conta histórias sobre como os cherifes daquele lugar caçavam, torturavam e matavam os inúmeros humanos\nque chegavam naquela cidade")
+        escreva("\nZorvok: Eles são mals. . . E eu era obrigado a ver a chacina que eles faziam")
+        escreva("\nZorvok: Então eu quis largar essa vida, não achava justo todos serem punidos por uma única besteira que outros fazem")
+        escreva("\n\nZorvok: Por isso eu quis que você colaborasse, porquê eu queria te proteger")
+        escreva("\nZorvok: Quando eu vi você chegando na cidade, desmaiando pelo cansaço de uma viagem, eu te levei pra minha casa")
+        escreva("\nZorvok: Se eles te vissem, você seria morto")
+        escreva("\n\nVocê agora compreendia, entendia a forma com que ele te tratou la fora")
+        escreva("\nE vendo a situação que ambos se encontravam, você então decide colaborar")
+        escreva("\n\nApós a poeira la fora passar, vocês saem, você agora está decidido a colaborar com Zorvok para não morrer")
+        escreva("\nVocê ainda trabalhava pra ele, capinando o seu lote de verduras, mas, em compensasão, ele te deixa morar em sua casa")
+        escreva("\nAgora você vive com Zorvok, alguém que te faz uma boa companhia e te protege pra não morrer")
+
+      }
+      caso'n':
+      {
+        escreva("\nVocê fica calado e vai acompanhando Zorvok, sentindo um grande desconforto.")
+        escreva("\nEnquanto vocês andavam, Zorvok é baleado 5 vezes nas costas, caindo quase morto no chão sem chance de reação")
+        escreva("\nVocê fica chocado com a cena, e tenta ir até o corpo do ser dracônico pra ver se ele estava bem")
+        escreva("\nA figura encapuzada pega no seu braço e começa a te arrastar até um lugas desconhecido")
+        escreva("\n\n???: Não acredito que Zorvok guardava um humano consigo. . . que decepção")
+        escreva("\nVocê tenta se soltar, mas as mãos do homen, além de escamosas, são mais fortes que seu frágil corpo")
+        escreva("\nNo final, ele te leva para uma prisão e te deixa lá preso, sem comida, sem água, tudo isso\npara você morrer de forma natural e cruel")
+      }
+      caso'p':
+      {
+        escreva("\nVocê pergunta de longe o motivo daquela figura estar encarando vocês, ele se levanta e vai até ambos")
+        escreva("\nZorvok te olha com estranhesa, mas depois vê o homem se apróximando e fica com certo receio")
+        escreva("\nEle até tenta começar a sair puxando você pelo braço, mas o homem o impede")
+        escreva("\n\n???: Hey, aonde você pensssa que ta indo com essse muleque?")
+        escreva("\nZorvok: Striker por favor, me deixa em paz. Eu só quero ir almoçar")
+        escreva("\nVocê prestava atenção na conversa dos dois enquanto se escondia nas costas de Zorvok")
+        escreva("\n\nStriker: Isssto não foi oque eu perguntei, Zorvok")
+        escreva("\nVocê via mais claramente, striker parecia ser um tipo de réptil Humanoide, sendo do mesmo tamanho colossal de Zorvok")
+        escreva("\n\nZorvok: Striker, é sério, eu só quero ir almoçar, esse muleque é spo. . . Meu sobrinho")
+        escreva("\n\nStriker: Ssseu sssobrinho? E você tem um sssobrinho humano?!?!")
+        escreva("\nStriker então te tira das costas de Zorvok, mostrando que você era uma criança humana para todos os presentes nas ruas")
+        escreva("\nVocê vê figuras em choque, figuras te olhando com nojo e desgosto.\nenquanto striker tinha uma certa satisfação em seu rosto, Zorvok tinha medo e incerteza")
+        escreva("\n\nStriker: eae Zorvok? Não tem nada para falar?")
+        escreva("\n\nZorvok: Striker ele é só um garoto! Não é justo ele pagar por um crime que ele não cometeu")
+        escreva("\n\nStriker: Que ele não cometeu? Zorvok ele é um Humano! Ele é a razão pra estarmos morando neste LIXO de lugar!")
+        escreva("\n\nZorvok: Ele não tem culpa! Ele ainda é uma alma inocente! Alguém que não precisa ser como os demais!")
+        escreva("\n\nStriker: Você sabe das regras. . . Todo e qualquer humano passa pela 'desumanização' quando chega aqui")
+        escreva("\nStriker te olha sério, como se estivesse pronto pra te matar a qualquer momento")
+        escreva("\nEm meio a tensão, Zorvok faz uma proposta")
+        escreva("\n\nZorvok: Espera! Eu tenho uma proposta!")
+        escreva("\nStriker olha pra Zorvok com certa dúvida, mas espera tal terminar de falar")
+        escreva("\n\nZorvok: A minha vida. . . Pela dele.")
+        escreva("\n\nStriker: OQUE?!?")
+        escreva("\nStriker pareceu confuso")
+        escreva("\n\nZorvok: EU quero ser punido, enquanto você e o resto dos cherifes da cidade levam o garoto para fora daqui")
+        escreva("\nVocê tenta contestar, um sacrifício? Ele mal te conhecida. . .")
+        escreva("\n\nStriker:. . . Eu não sei oque te deu pra querer salvar tanto esse garoto humano. . . Mas se é assim. . .")
+        escreva("\nVocê via o rosto do striker com um sorriso, como se não fosse oque ele esperava, mas ele gostou")
+        escreva("\n\nAlgum tempo após isso, você se vê em uma carroça, olhando para uma forca pública aonde se encontrava Zorvok e Striker")
+        escreva("\nVocê olha para Zorvok uma última vez antes de ir")
+        escreva("\nEle olha pra você e sorri.")
+        escreva("\nApós isso, a carroça sai em disparada. Você só vê zorvok de fundo enquanto deixava a cidade")
+        escreva("\n Após sair, você nunca mais conseguiu ir para aquela cidade e não teve notícias de Zorvok. . .")
+
+      }
+    }
+    escreva("\n\nBem, você chegou no final do jogo, parabéns :D")
+
   }
 }
